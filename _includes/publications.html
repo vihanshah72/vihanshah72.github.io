@@ -1,0 +1,38 @@
+<section class="sections" id="publication">
+  <h2>Publications</h2>
+  <ol reversed>
+    {% for paper in site.data.papers %}
+      <li>
+        {% if paper.conf_link %}
+          <a href="{{ paper.internal_link }}" class="class2">{{ paper.title }}</a>
+        {% else %}
+          {{ paper.title }}
+        {% endif %}
+        <b> {{ paper.venue }}</b><br/>
+
+        {% assign coauthor_links = "" | split: "" %}
+        {% for author_id in paper.authors %}
+          {% assign author = site.data.people[author_id] %}
+          {% if author %}
+            {% capture author_link %}
+              <a href="{{ author.link }}" class="class1">{{ author.name }}</a>
+            {% endcapture %}
+            {% assign coauthor_links = coauthor_links | push: author_link %}
+          {% endif %}
+        {% endfor %}
+
+        {% if coauthor_links.size > 0 %}
+          with {{ coauthor_links | array_to_sentence_string }}<br/>
+        {% endif %}
+
+        {% if paper.arxiv_link %}
+          <a href="{{ paper.arxiv_link }}" class="class0">[arXiv]</a>
+        {% endif %}
+        {% if paper.conf_link %}
+          <a href="{{ paper.conf_link }}" class="class0">[conf]</a>
+        {% endif %}
+        <br/>
+      </li>
+    {% endfor %}
+  </ol>
+</section>

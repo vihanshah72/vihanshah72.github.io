@@ -1,0 +1,8 @@
+<section class="sections" id="talks">
+  <h2>Talks</h2>
+  <ul>
+    {% for talk in site.data.talks %}
+      <li><strong>{{ talk.title }}</strong>, {{ talk.venue }} ({{ talk.date }})</li>
+    {% endfor %}
+  </ul>
+</section>
