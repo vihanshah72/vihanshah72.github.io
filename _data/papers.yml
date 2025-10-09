@@ -1,0 +1,92 @@
+- title: An Improved Fully Dynamic Algorithm for Counting 4-Cycles in General Graphs
+  venue: PODS 2025
+  authors:
+  - sepehr
+  arxiv_link: https://arxiv.org/abs/2504.10748
+  conf_link: ''
+  internal_link: ''
+
+- title: Fully Dynamic Adversarially Robust Correlation Clustering in Polylogarithmic Update Time
+  venue: AISTATS 2025
+  authors:
+  - vladimir
+  - prathamesh
+  - shreyas
+  - chen
+  arxiv_link: https://arxiv.org/abs/2411.09979
+  conf_link: ''
+  internal_link: ''
+
+- title: Space Complexity of Minimum Cut Problems in Single-Pass Streams
+  venue: ITCS 2025
+  authors:
+  - matthew
+  - alexandro
+  - jason
+  - honghao
+  - jelani
+  - david
+  arxiv_link: https://arxiv.org/abs/2412.01143
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.43
+  internal_link: ''
+
+- title: Learning-augmented Maximum Independent Set
+  venue: APPROX 2024
+  authors:
+  - vladimir
+  - prathamesh
+  - chen
+  arxiv_link: https://arxiv.org/abs/2407.11364
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2024.24
+  internal_link: publication/LearningAugMIS/main_page.html
+
+- title: New Lower Bounds in Merlin-Arthur Communication and Graph Streaming Verification
+  venue: ITCS 2024
+  authors:
+  - prantar
+  arxiv_link: https://arxiv.org/abs/2401.06378
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.53
+  internal_link: publication/StreamVerification/main_page.html
+
+- title: Streaming Algorithms and Lower Bounds for Estimating Correlation Clustering Cost
+  venue: NeurIPS 2023
+  authors:
+  - sepehr
+  - chen
+  arxiv_link: ''
+  conf_link: https://neurips.cc/virtual/2023/poster/70662
+  internal_link: publication/StreamingCC/main_page.html
+
+- title: Tight Bounds for Vertex Connectivity in Dynamic Streams
+  venue: SOSA 2023
+  authors:
+  - sepehr
+  arxiv_link: https://arxiv.org/abs/2211.04685
+  conf_link: https://epubs.siam.org/doi/10.1137/1.9781611977585.ch20
+  internal_link: publication/StreamingVertCon/main_page.html
+
+- title: Generalizing Greenwald-Khanna Streaming Quantile Summaries for Weighted Inputs
+  venue: ICDT 2023
+  authors:
+  - sepehr
+  - nirmit
+  - milind
+  arxiv_link: https://arxiv.org/abs/2303.06288
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2023.19
+  internal_link: publication/StreamingQuantiles/main_page.html
+
+- title: Space Optimal Vertex Cover in Dynamic Streams
+  venue: APPROX 2022
+  authors:
+  - kheeran
+  arxiv_link: https://arxiv.org/abs/2209.05623
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2022.53
+  internal_link: publication/StreamingApxVertexCover/main_page.html
+
+- title: An Asymptotically Optimal Algorithm for Maximum Matching in Dynamic Streams
+  venue: ITCS 2022
+  authors:
+  - sepehr
+  arxiv_link: https://arxiv.org/abs/2201.12710
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2022.9
+  internal_link: publication/StreamingApxMatching/main_page.html
