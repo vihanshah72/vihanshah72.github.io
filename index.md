@@ -154,7 +154,7 @@ title: Vihan Shah
     </div>
 
     <footer id="footer">
-        Last modified: November 22, 2025
+        Last modified: February 17, 2026
       </footer>
 
 
