@@ -1,0 +1,135 @@
+- title: Optimal Graph Streaming Algorithms and Further Advances in Modern Models of Computation
+  venue: PhD Thesis
+  authors:
+  
+  arxiv_link: 'https://uwspace.uwaterloo.ca/items/3b4d1629-fd29-4229-8c73-896935a34712'
+
+
+- title: Sublinear-Time Lower Bounds for Approximating Matching Size using Non-Adaptive Queries
+  venue: SODA 2026
+  authors: 
+  internal_link: ''
+  arxiv_link: 'https://arxiv.org/abs/2602.14326'
+  conf_link: 'https://epubs.siam.org/doi/10.1137/1.9781611978971.182'
+  #note: 'This work appears as the final chapter of my <a href="https://uwspace.uwaterloo.ca/items/3b4d1629-fd29-4229-8c73-896935a34712" class="class0">thesis</a>.'
+  author_note: "(solo-authored student paper)"
+
+
+- title: An Improved Fully Dynamic Algorithm for Counting 4-Cycles in General Graphs
+  venue: PODS 2025
+  authors:
+  - sepehr
+  arxiv_link: https://arxiv.org/abs/2504.10748
+  conf_link: 'https://dl.acm.org/doi/abs/10.1145/3725228'
+  internal_link: ''
+
+- title: Fully Dynamic Adversarially Robust Correlation Clustering in Polylogarithmic Update Time
+  venue: AISTATS 2025
+  authors:
+  - vladimir
+  - prathamesh
+  - shreyas
+  - chen
+  arxiv_link: https://arxiv.org/abs/2411.09979
+  conf_link: 'https://proceedings.mlr.press/v258/braverman25a.html'
+  internal_link: ''
+
+- title: Space Complexity of Minimum Cut Problems in Single-Pass Streams
+  venue: ITCS 2025
+  authors:
+  - matthew
+  - alexandro
+  - jason
+  - honghao
+  - jelani
+  - david
+  arxiv_link: https://arxiv.org/abs/2412.01143
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.43
+  internal_link: ''
+  talk_link: "https://www.youtube.com/watch?v=Tj3c6BpaN4s"
+
+
+- title: Learning-augmented Maximum Independent Set
+  venue: APPROX 2024
+  authors:
+  - vladimir
+  - prathamesh
+  - chen
+  arxiv_link: https://arxiv.org/abs/2407.11364
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2024.24
+  internal_link: publication/LearningAugMIS/main_page.html
+
+- title: New Lower Bounds in Merlin-Arthur Communication and Graph Streaming Verification
+  venue: ITCS 2024
+  authors:
+  - prantar
+  arxiv_link: https://arxiv.org/abs/2401.06378
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.53
+  internal_link: publication/StreamVerification/main_page.html
+  talk_link: "https://www.youtube.com/watch?v=Xa0xflICdko"
+
+- title: Streaming Algorithms and Lower Bounds for Estimating Correlation Clustering Cost
+  venue: NeurIPS 2023
+  authors:
+  - sepehr
+  - chen
+  arxiv_link: 'https://openreview.net/attachment?id=k4ZCORSFEd&name=supplementary_material'
+  conf_link: https://neurips.cc/virtual/2023/poster/70662
+  internal_link: publication/StreamingCC/main_page.html
+  note: 'There is a new result on this in my <a href="https://uwspace.uwaterloo.ca/items/3b4d1629-fd29-4229-8c73-896935a34712" class="class0">thesis</a>. The conf link also includes a short talk and its slides.'
+
+- title: Tight Bounds for Vertex Connectivity in Dynamic Streams
+  venue: SOSA 2023
+  authors:
+  - sepehr
+  arxiv_link: https://arxiv.org/abs/2211.04685
+  conf_link: https://epubs.siam.org/doi/10.1137/1.9781611977585.ch20
+  internal_link: publication/StreamingVertCon/main_page.html
+  slides_links:
+  - label: "Long Slides"
+    url: "publication/StreamingVertCon/slides_long.pdf"
+  - label: "Short Slides"
+    url: "publication/StreamingVertCon/slides_short.pdf"
+
+- title: Generalizing Greenwald-Khanna Streaming Quantile Summaries for Weighted Inputs
+  venue: ICDT 2023
+  authors:
+  - sepehr
+  - nirmit
+  - milind
+  arxiv_link: https://arxiv.org/abs/2303.06288
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2023.19
+  internal_link: publication/StreamingQuantiles/main_page.html
+
+- title: Space Optimal Vertex Cover in Dynamic Streams
+  venue: APPROX 2022
+  authors:
+  - kheeran
+  arxiv_link: https://arxiv.org/abs/2209.05623
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.APPROX/RANDOM.2022.53
+  internal_link: publication/StreamingApxVertexCover/main_page.html
+  talk_link: "https://www.youtube.com/watch?v=-X1QakTbjHs&t=3s"
+  slides_links:
+  - label: "Long Slides"
+    url: "publication/StreamingApxVertexCover/slides_long.pdf"
+  - label: "Short Slides"
+    url: "publication/StreamingApxVertexCover/slides_short.pdf"
+  author_note: "(student-only paper)"
+
+- title: An Asymptotically Optimal Algorithm for Maximum Matching in Dynamic Streams
+  venue: ITCS 2022
+  authors:
+  - sepehr
+  arxiv_link: https://arxiv.org/abs/2201.12710
+  conf_link: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2022.9
+  internal_link: publication/StreamingApxMatching/main_page.html
+  talk_links:
+  - label: "Long Talk"
+    url: "https://www.youtube.com/watch?v=zxKP4fh6qNUlist=PLgKuh-lKre11M2GCKkTySipbMIxXqKzkE&index=46"
+  - label: "Conf Talk"
+    url: "https://youtu.be/rs7nlbAosLo?t=2855"
+  slides_links:
+  - label: "Long Slides"
+    url: "publication/StreamingApxMatching/ITCS22_long.pdf"
+  - label: "Short Slides"
+    url: "publication/StreamingApxMatching/ITCS22_short.pdf"

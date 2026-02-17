@@ -1,0 +1,82 @@
+<section class="sections" id="publication">
+  <h2>Publications</h2>
+  <ol reversed>
+    {% for paper in site.data.papers %}
+      <li>
+        <!--{% if paper.internal_link %}
+          <a href="{{ paper.internal_link }}" class="class2">{{ paper.title }}</a>
+        {% else %}
+          <span class="class2">{{ paper.title }}</span>
+        {% endif %}-->
+        <span class="class2">{{ paper.title }}</span>
+        <b> {{ paper.venue }}</b><br/>
+
+        {% assign coauthor_links = "" | split: "" %}
+        {% for author_id in paper.authors %}
+          {% assign author = site.data.people[author_id] %}
+          {% if author %}
+            {% capture author_link %}
+              <a href="{{ author.link }}" class="class1">{{ author.name }}</a>
+            {% endcapture %}
+            {% assign coauthor_links = coauthor_links | push: author_link %}
+          {% endif %}
+        {% endfor %}
+
+        {% if coauthor_links.size > 0 %}
+  with {{ coauthor_links | array_to_sentence_string }}
+{% endif %}
+
+{% if paper.author_note %}
+  <span style="font-style: italic; color: #777;">{% if coauthor_links.size > 0 %} {% endif %}{{ paper.author_note }}</span>
+{% endif %}
+
+{% if coauthor_links.size > 0 or paper.author_note %}<br/>{% endif %}
+
+
+        <!-- Optional resource links: render only if present -->
+        <span class="pub-links">
+          {% if paper.arxiv_link %}<a href="{{ paper.arxiv_link }}" class="class0">[Full Version]</a>{% endif %}
+          {% if paper.conf_link %} <a href="{{ paper.conf_link }}" class="class0">[conf]</a>{% endif %}
+
+          {% if paper.talk_links %}
+          {% for t in paper.talk_links %}
+            {% if t.url %}
+              <a href="{{ t.url }}" class="class0">[{{ t.label | default: "talk" }}]</a>
+            {% else %}
+              <a href="{{ t }}" class="class0">[talk]</a>
+            {% endif %}
+          {% endfor %}
+        {% elsif paper.talk_link %}
+          <a href="{{ paper.talk_link }}" class="class0">[talk]</a>
+        {% endif %}
+
+
+      {% comment %} Slides block (supports single or multiple) {% endcomment %}
+          {% if paper.slides_links %}
+            {% for s in paper.slides_links %}
+              {% if s.url %}
+                <a href="{{ s.url }}" class="class0">[{{ s.label | default: "slides" }}]</a>
+              {% else %}
+                <a href="{{ s }}" class="class0">[slides]</a>
+              {% endif %}
+            {% endfor %}
+          {% elsif paper.slides_link %}
+            <a href="{{ paper.slides_link }}" class="class0">[slides]</a>
+      {% endif %}
+
+          
+          {% if paper.poster_link %} <a href="{{ paper.poster_link }}" class="class0">[poster]</a>{% endif %}
+
+        </span>
+        <br/>
+
+        {% if paper.note %}
+          <span style="display:block; font-style: italic; color: #555; margin-top: 0.2em;">
+            {{ paper.note }}
+          </span>
+        {% endif %}
+        <br/>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
