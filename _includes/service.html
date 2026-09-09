@@ -19,12 +19,33 @@
     </ul>
   </section>
 
-  <section>
-    <h3>External Reviews</h3>
-    <ul>
-      {% for review in site.data.service.reviews %}
-        <li><strong>{{ review.venue }}</strong>: {{ review.years }}</li>
+<section>
+  <h3>External Reviewing</h3>
+
+  <h4>Conference Reviews</h4>
+  <table class="review-table">
+    <tbody>
+      {% for review in site.data.service.conference_reviews %}
+        <tr>
+          <td class="review-short"><strong>{{ review.short }}</strong></td>
+          <td class="review-venue">{{ review.venue }}</td>
+          <td class="review-years">{{ review.years }}</td>
+        </tr>
       {% endfor %}
-    </ul>
-  </section>
+    </tbody>
+  </table>
+
+  <h4>Journal Reviews</h4>
+  <table class="review-table">
+    <tbody>
+      {% for review in site.data.service.journal_reviews %}
+        <tr>
+          <td class="review-short"><strong>{{ review.short }}</strong></td>
+          <td class="review-venue">{{ review.venue }}</td>
+          <td class="review-years">{{ review.years }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
 </section>

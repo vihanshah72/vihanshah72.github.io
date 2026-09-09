@@ -15,7 +15,7 @@
   author_note: "(solo-authored student paper)"
 
 
-- title: An Improved Fully Dynamic Algorithm for Counting 4-Cycles in General Graphs
+- title: An Improved Fully Dynamic Algorithm for Counting 4-Cycles in General Graphs using Fast Matrix Multiplication
   venue: PODS 2025
   authors:
   - sepehr

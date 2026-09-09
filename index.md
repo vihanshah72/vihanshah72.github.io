@@ -22,7 +22,7 @@ title: Vihan Shah
         <div class="banner-content">
             <h1>Vihan Shah</h1>
             <p>
-                Postdoctoral researcher in Theoretical Computer Science at the University of Birmingham <br>
+                Marie Curie Fellow in Theoretical Computer Science at the University of Birmingham <br>
                 <!--Office: DC 2306N <br>-->
                 Email: vihanshah98@gmail.com
             </p>
@@ -54,7 +54,7 @@ title: Vihan Shah
                About Me
                </p> 
                <div style="text-align: justify; text-justify: inter-word;"> 
-               I am a postdoctoral researcher at the <a href="https://www.birmingham.ac.uk/" class="class0">University of Birmingham</a>, where I work with <a href="https://sagnikm.github.io/index.html" class="class0">Sagnik Mukhopadhyay</a> in the <a href="https://www.birmingham.ac.uk/research/centres-institutes/research-in-computer-science/theory-of-computation" class="class0">Theory of Computation</a> group within the <a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science" class="class0">School of Computer Science</a>.
+               I am a <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/" class="class0">Marie Skłodowska-Curie Postdoctoral Fellow</a> at the <a href="https://www.birmingham.ac.uk/" class="class0">University of Birmingham</a>, where I work with <a href="https://sagnikm.github.io/index.html" class="class0">Sagnik Mukhopadhyay</a> in the <a href="https://www.birmingham.ac.uk/research/centres-institutes/research-in-computer-science/theory-of-computation" class="class0">Theory of Computation</a> group within the <a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science" class="class0">School of Computer Science</a>.
                <br>    
                <br>    
                Previously, I completed my PhD at the <a href="https://uwaterloo.ca/" class="class0">University of Waterloo</a> in the 
@@ -64,11 +64,11 @@ title: Vihan Shah
                <a href="https://theory.cs.rutgers.edu/" class="class0">theory group </a> of the <a href="https://www.cs.rutgers.edu/" class="class0">CS Department</a>. 
                <br>    
                <br>    
-               My undergraduate studies began at <a href="https://www.mahindrauniversity.edu.in/" class="class0">Mahindra &Eacute;cole Centrale</a>, where I completed three years of my bachelor’s in Computer Science Engineering before transferring to <a href="https://camden.rutgers.edu/new/" class="class0">Rutgers-Camden</a> for my final year. There, I was mentored by <a href="https://crab.rutgers.edu/~rajivg/" class="class0">Rajiv Gandhi</a>, who first sparked my interest in theoretical computer science.
+               I began my undergraduate studies at <a href="https://www.mahindrauniversity.edu.in/" class="class0">Mahindra École Centrale</a> and completed my degree at <a href="https://camden.rutgers.edu/new/" class="class0">Rutgers-Camden</a>, where I was mentored by <a href="https://crab.rutgers.edu/~rajivg/" class="class0">Rajiv Gandhi</a>.
                <br>    
                <br>    
 
-               <p> My research lies in <strong>theoretical computer science</strong>, where I mainly study <strong>graph problems</strong> through the lens of <strong>modern models of computation</strong>. My work primarily focuses on <strong>streaming algorithms</strong>, while also extending to sublinear-time, dynamic, and learning-augmented models. I am motivated by challenges posed by <strong>massive datasets</strong>, and I enjoy uncovering the fundamental trade-offs between computational resources such as space, time, and approximation in these modern models of computation.
+               <p> My research lies in <strong>theoretical computer science</strong>, where I mainly study <strong>graph problems</strong> through the lens of <strong>modern models of computation</strong>. My work primarily focuses on <strong>streaming algorithms</strong>, while also extending to sublinear-time, dynamic, and learning-augmented models. I am motivated by challenges posed by <strong>massive datasets</strong>, and I enjoy uncovering the fundamental trade-offs between space, time, adaptivity, and approximation in these modern models of computation.
 </p>
 </div>
 
@@ -96,7 +96,7 @@ title: Vihan Shah
                   <a href="cv.pdf" target="_blank" data-tooltip="CV">
                       <i class="ai ai-cv-square ai-2x"></i>
                   </a>
-                  <div class="date-info">as of November 2025</div>
+                  <div class="date-info">as of September 2026</div>
 
               </div>
              
@@ -154,7 +154,7 @@ title: Vihan Shah
     </div>
 
     <footer id="footer">
-        Last modified: February 17, 2026
+        Last modified: September 8, 2026
       </footer>
 
 

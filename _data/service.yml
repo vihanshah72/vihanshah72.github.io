@@ -10,8 +10,8 @@ teaching:
   term: Winter 2025
   location: University of Waterloo
   link: https://sepehr.assadi.info/courses/cs761-w25/
-- title: Guest Lectures on Sublinear and Streaming Algorithms
-  term: "Summer 2020-2025"
+- title: Yearly Guest Lectures on Sublinear and Streaming Algorithms
+  term: "Summer 2020-2026"
   location: Program in Algorithmic and Combinatorial Thinking (PACT), Princeton University
 - title: Teaching Assistant for Design and Analysis of Computer Algorithms (CS 344)
   term: Spring 2021, Spring 2022, Fall 2021
@@ -25,36 +25,53 @@ teaching:
 - title: Teaching Assistant for Discrete Mathematics
   term: Summer 2019
   location: Program in Algorithmic and Combinatorial Thinking (PACT), Princeton University
-reviews:
-- venue: Symposium on Theory of Computing (STOC)
-  years: 2022, 2024, 2025
 
-- venue: Symposium on Foundations of Computer Science (FOCS)
+conference_reviews:
+- short: STOC
+  venue: Symposium on Theory of Computing
+  years: 2022, 2024, 2025, 2026
+
+- short: FOCS
+  venue: Symposium on Foundations of Computer Science
+  years: 2025, 2026
+
+- short: SODA
+  venue: Symposium on Discrete Algorithms
+  years: 2022, 2023, 2024, 2026, 2027
+
+- short: ITCS
+  venue: Innovations in Theoretical Computer Science
+  years: 2024, 2025, 2026, 2027
+
+- short: ICALP
+  venue: International Colloquium on Automata, Languages, and Programming
+  years: 2023, 2025, 2026
+
+- short: PODS
+  venue: Symposium on Principles of Database Systems
   years: 2025
 
-- venue: Symposium on Discrete Algorithms (SODA)
-  years: 2022, 2023, 2024, 2026
+- short: SOSA
+  venue: Symposium on Simplicity in Algorithms
+  years: 2026, 2027
 
-- venue: Innovations in Theoretical Computer Science (ITCS)
-  years: 2024, 2025, 2026
+- short: ESA
+  venue: European Symposium on Algorithms
+  years: 2022, 2023, 2024, 2025, 2026
 
-- venue: International Colloquium on Automata, Languages, and Programming (ICALP)
-  years: 2023, 2025
-
-- venue: Symposium on Principles of Database Systems (PODS)
-  years: 2025
-
-- venue: Symposium on Simplicity in Algorithms (SOSA)
+- short: STACS
+  venue: Symposium on Theoretical Aspects of Computer Science
   years: 2026
 
-- venue: European Symposium on Algorithms (ESA)
-  years: 2022, 2023, 2024, 2025
-
-- venue: Symposium on Theoretical Aspects of Computer Science (STACS)
-  years: 2026
-
-- venue: International Symposium on Algorithms and Computation (ISAAC)
+- short: ISAAC
+  venue: International Symposium on Algorithms and Computation
   years: 2025
 
-- venue: Symposium on Principles of Distributed Computing (PODC)
+- short: PODC
+  venue: Symposium on Principles of Distributed Computing
   years: 2021
+
+journal_reviews:
+- short: TCS
+  venue: Theoretical Computer Science
+  years: 2026

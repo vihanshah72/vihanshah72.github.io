@@ -9,7 +9,7 @@
           <span class="class2">{{ paper.title }}</span>
         {% endif %}-->
         <span class="class2">{{ paper.title }}</span>
-        <b> {{ paper.venue }}</b><br/>
+        <span class="pub-venue"><b>{{ paper.venue }}</b></span><br/>
 
         {% assign coauthor_links = "" | split: "" %}
         {% for author_id in paper.authors %}

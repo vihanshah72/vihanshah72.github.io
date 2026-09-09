@@ -394,3 +394,37 @@ body {
 .negativebreak{
     margin-top: -10px; /* Moves the element upwards */
 }
+
+.review-table {
+  width: auto;
+  border-collapse: collapse;
+  margin-bottom: 1.2rem;
+}
+
+.review-table td {
+  padding: 0.3rem 0;
+  vertical-align: top;
+}
+
+.review-short {
+  width: 65px;
+  white-space: nowrap;
+}
+
+.review-short strong {
+  color: #4CAF50;
+  font-weight: normal;
+}
+
+.review-venue {
+  padding-right: 0.6rem !important;
+}
+
+.review-years {
+  padding-left: 1rem !important;
+  white-space: nowrap;
+}
+
+.pub-venue {
+  white-space: nowrap;
+}
