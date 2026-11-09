@@ -96,7 +96,7 @@ title: Vihan Shah
                   <a href="cv.pdf" target="_blank" data-tooltip="CV">
                       <i class="ai ai-cv-square ai-2x"></i>
                   </a>
-                  <div class="date-info">as of September 2026</div>
+                  <div class="date-info">as of November 2026</div>
 
               </div>
              
@@ -136,15 +136,7 @@ title: Vihan Shah
             </div>
          </div>
 
-         <!--
-        <section class="sections" id="preprint">
-        <h2>Preprints</h2>
-        </section>
-       <ul class="negativebreak">
-         
-       </ul>
-        -->
-
+        {% include preprints.html %}
         {% include publications.html %}
         {% include talks.html %}
         {% include service.html %}
@@ -154,7 +146,7 @@ title: Vihan Shah
     </div>
 
     <footer id="footer">
-        Last modified: September 8, 2026
+        Last modified: November 9, 2026
       </footer>
 
 

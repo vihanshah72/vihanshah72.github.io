@@ -1,0 +1,31 @@
+<section class="sections" id="preprint">
+  <h2>Preprints</h2>
+  <ol reversed>
+    {% for paper in site.data.preprints %}
+      <li>
+        <span class="class2">{{ paper.title }}</span><br/>
+
+        {% assign coauthor_links = "" | split: "" %}
+        {% for author_id in paper.authors %}
+          {% assign author = site.data.people[author_id] %}
+          {% if author %}
+            {% capture author_link %}
+              <a href="{{ author.link }}" class="class1">{{ author.name }}</a>
+            {% endcapture %}
+            {% assign coauthor_links = coauthor_links | push: author_link %}
+          {% endif %}
+        {% endfor %}
+
+        {% if coauthor_links.size > 0 %}
+          with {{ coauthor_links | array_to_sentence_string }}<br/>
+        {% endif %}
+
+        <span class="pub-links">
+          {% if paper.arxiv_link %}<a href="{{ paper.arxiv_link }}" class="class0">[Full Version]</a>{% endif %}
+        </span>
+        <br/>
+        <br/>
+      </li>
+    {% endfor %}
+  </ol>
+</section>

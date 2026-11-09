@@ -26,6 +26,10 @@ nirmit:
   name: Nirmit Joshi
   link: https://nirmitj6.github.io/static-webpage/
 
+sanjeev:
+  name: Sanjeev Khanna
+  link: https://sanjeevkhanna.org/
+
 jason:
   name: Jason Li
   link: https://q3r.github.io/
@@ -33,6 +37,22 @@ jason:
 honghao:
   name: Honghao Lin
   link: https://honghlin.github.io/
+
+yang_liu:
+  name: Yang P. Liu
+  link: https://yangpliu.github.io/
+
+sepideh:
+  name: Sepideh Mahabadi
+  link: https://www.mit.edu/~mahabadi/
+
+shravan:
+  name: Shravan Mehra
+  link: https://www.birmingham.ac.uk/research/centres-institutes/research-in-computer-science/theory-of-computation/theory-of-computation-team
+
+sagnik:
+  name: Sagnik Mukhopadhyay
+  link: https://sagnikm.github.io/
 
 kheeran:
   name: Kheeran K. Naidu
@@ -42,6 +62,10 @@ jelani:
   name: Jelani Nelson
   link: https://people.eecs.berkeley.edu/~minilek/
 
+hoaian:
+  name: Hoai-An Nguyen
+  link: https://hoaiannguyen.com/
+
 shreyas:
   name: Shreyas Pai
   link: https://shreyaspai.com/
@@ -50,6 +74,14 @@ milind:
   name: Milind Prabhu
   link: https://milind-prabhu.github.io/
 
+vihan:
+  name: Vihan Shah
+  link: #
+
+ali:
+  name: Ali Vakilian
+  link: https://www.mit.edu/~vakilian/
+
 chen:
   name: Chen Wang
   link: https://sites.google.com/view/chen-wang/home
@@ -57,7 +89,3 @@ chen:
 david:
   name: David P. Woodruff
   link: https://www.cs.cmu.edu/~dwoodruf/
-
-vihan:
-  name: Vihan Shah
-  link: #

@@ -1,4 +1,52 @@
 - title: Seminar Talk
+  venue: Simon Fraser University
+  date: November 2026
+  type: Invited
+  talk: "A Nearly Optimal Min-Cut Algorithm for Dynamic Streams"
+
+- title: Seminar Talk
+  venue: University of British Columbia
+  date: November 2026
+  type: Invited
+  talk: "A Nearly Optimal Min-Cut Algorithm for Dynamic Streams"
+
+- title: Seminar Talk
+  venue: University of Victoria
+  date: November 2026
+  type: Invited
+  talk: "Huge Network Tiny Resources: Algorithms for massive graphs"
+
+- title: Seminar Talk
+  venue: University of Waterloo
+  date: November 2026
+  type: Invited
+  talk: "A Nearly Optimal Min-Cut Algorithm for Dynamic Streams"
+
+- title: Seminar Talk
+  venue: York University
+  date: November 2026
+  type: Invited
+  talk: "A Nearly Optimal Min-Cut Algorithm for Dynamic Streams"
+
+- title: Seminar Talk
+  venue: University of Toronto
+  date: October 2026
+  type: Invited
+  talk: "A Nearly Optimal Min-Cut Algorithm for Dynamic Streams"
+
+- title: Department Colloquium
+  venue: Western University
+  date: October 2026
+  type: Invited
+  talk: "Huge Network Tiny Resources: Algorithms for massive graphs"
+
+- title: Department Colloquium
+  venue: McMaster University
+  date: October 2026
+  type: Invited
+  talk: "Huge Network Tiny Resources: Algorithms for massive graphs"
+
+- title: Seminar Talk
   venue: Rutgers University
   date: May 2026
   type: Invited

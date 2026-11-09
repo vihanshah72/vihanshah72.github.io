@@ -1,3 +1,24 @@
+- title: A Nearly Optimal Min-Cut Algorithm for Dynamic Streams
+  venue: ITCS 2027
+  authors:
+  - yang_liu
+  - hoaian
+  - david
+  arxiv_link: 'https://arxiv.org/abs/2610.34097'
+
+- title: Matching Size Estimation with Non-Adaptive Pair Queries
+  venue: ITCS 2027
+  authors:
+  - sanjeev
+  - sagnik
+
+- title: New Results in Link Arrival Streaming Connectivity Augmentation
+  venue: ITCS 2027
+  authors:
+  - sepideh
+  - ali
+
+
 - title: Optimal Graph Streaming Algorithms and Further Advances in Modern Models of Computation
   venue: PhD Thesis
   authors:
