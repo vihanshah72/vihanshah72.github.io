@@ -2,6 +2,7 @@
   authors:
   - sanjeev
   - sagnik
+  arxiv_link: 'https://sigact-stoc.github.io/stoc2027/'
 
 - title: Bipartite Matching with Few Rounds of Demand Queries
   authors:

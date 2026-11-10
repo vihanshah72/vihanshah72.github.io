@@ -45,10 +45,10 @@ title: Vihan Shah
 
          <div class="container">          
             <div class="text">
-               <!-- Announcement Box for Postdoc Positions 
+               <!-- Announcement Box for Faculty Positions -->
                <div class="announcement">
-                  <p>🔍 Currently seeking postdoctoral positions</p>
-               </div> -->
+                  <p>🔍 Currently seeking faculty positions</p>
+               </div>
                <br>  
                <p style="font-weight: bold; font-size: 1.3em; margin-bottom: 0.4em;">
                About Me
@@ -116,22 +116,23 @@ title: Vihan Shah
          <div>          
             <div style="float: right; padding-left: 50px">
                <h2>Collaborators</h2>
+               {% assign collaborator_entries = "" | split: "" %}
+               {% for person_pair in site.data.people %}
+                  {% assign person_id = person_pair[0] %}
+                  {% assign person = person_pair[1] %}
+                  {% unless person_id == "vihan" %}
+                     {% assign name_parts = person.name | split: " " %}
+                     {% assign last_name = name_parts | last %}
+                     {% capture collaborator_entry %}{{ last_name }}|||{{ person.name }}|||{{ person.link }}{% endcapture %}
+                     {% assign collaborator_entries = collaborator_entries | push: collaborator_entry %}
+                  {% endunless %}
+               {% endfor %}
+               {% assign collaborator_entries = collaborator_entries | sort %}
                <ul>
-                  <li><a href="https://sepehr.assadi.info/" class="class1">Sepehr Assadi</a></li><br/>
-                  <li><a href="https://profiles.rice.edu/faculty/vladimir-braverman" class="class1">Vladimir Braverman</a></li><br/>
-                  <li><a href="https://prathameshtd.github.io/" class="class1">Prathamesh Dharangutte</a></li><br/>
-                  <li><a href="https://matthew-ding.github.io/" class="class1">Matthew Ding</a></li><br/>
-                  <li><a href="https://www.linkedin.com/in/alexandro-garces-9a2016224/?trk=people-guest_people_search-card" class="class1">Alexandro Garces</a></li><br/>
-                  <li><a href="https://sites.google.com/view/prantarg/home" class="class1">Prantar Ghosh</a></li><br/>
-                  <li><a href="https://nirmitj6.github.io/static-webpage/" class="class1">Nirmit Joshi</a></li><br/>
-                  <li><a href="https://q3r.github.io/" class="class1">Jason Li</a></li><br/>
-                  <li><a href="https://honghlin.github.io/" class="class1">Honghao Lin</a></li><br/>
-                  <li><a href="https://kheerannaidu.com/" class="class1">Kheeran K. Naidu</a></li><br/>
-                  <li><a href="https://people.eecs.berkeley.edu/~minilek/" class="class1">Jelani Nelson</a></li><br/>
-                  <li><a href="https://shreyaspai.com/" class="class1">Shreyas Pai</a></li><br/>
-                  <li><a href="https://milind-prabhu.github.io/" class="class1">Milind Prabhu</a></li><br/>
-                  <li><a href="https://sites.google.com/view/chen-wang/home" class="class1">Chen Wang</a></li><br/>
-                  <li><a href="https://www.cs.cmu.edu/~dwoodruf/" class="class1">David P. Woodruff</a></li><br/>
+                  {% for collaborator_entry in collaborator_entries %}
+                     {% assign collaborator_parts = collaborator_entry | split: "|||" %}
+                     <li><a href="{{ collaborator_parts[2] }}" class="class1">{{ collaborator_parts[1] }}</a></li><br/>
+                  {% endfor %}
                </ul>
             </div>
          </div>
@@ -146,7 +147,7 @@ title: Vihan Shah
     </div>
 
     <footer id="footer">
-        Last modified: November 9, 2026
+        Last modified: November 10, 2026
       </footer>
 
 

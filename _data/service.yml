@@ -29,7 +29,7 @@ teaching:
 conference_reviews:
 - short: STOC
   venue: Symposium on Theory of Computing
-  years: 2022, 2024, 2025, 2026
+  years: 2022, 2024, 2025, 2026, 2027
 
 - short: FOCS
   venue: Symposium on Foundations of Computer Science
@@ -61,7 +61,7 @@ conference_reviews:
 
 - short: STACS
   venue: Symposium on Theoretical Aspects of Computer Science
-  years: 2026
+  years: 2026, 2027
 
 - short: ISAAC
   venue: International Symposium on Algorithms and Computation
@@ -74,4 +74,8 @@ conference_reviews:
 journal_reviews:
 - short: TCS
   venue: Theoretical Computer Science
+  years: 2026
+
+- short: SICOMP
+  venue: SIAM Journal on Computing
   years: 2026

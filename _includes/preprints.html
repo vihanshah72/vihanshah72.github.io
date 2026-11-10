@@ -17,14 +17,13 @@
         {% endfor %}
 
         {% if coauthor_links.size > 0 %}
-          with {{ coauthor_links | array_to_sentence_string }}<br/>
+          with {{ coauthor_links | array_to_sentence_string }}
         {% endif %}
 
-        <span class="pub-links">
-          {% if paper.arxiv_link %}<a href="{{ paper.arxiv_link }}" class="class0">[Full Version]</a>{% endif %}
-        </span>
-        <br/>
-        <br/>
+        {% if paper.arxiv_link %}
+          <br/>
+          <span class="pub-links"><a href="{{ paper.arxiv_link }}" class="class0">[Full Version]</a></span>
+        {% endif %}
       </li>
     {% endfor %}
   </ol>
